@@ -19,11 +19,10 @@ Current entries in accessList.txt
 	<pre id="currentAccess" style="border:4px solid; border-radius:10px; position:absolute; top:250px; left:200px; background-color:#fff; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); width:300px; height:450px; font-family: 'Droid Sans'; overflow:auto; font-size:26pt; text-align:center">
 	</pre>
 	<div class="form" id="idEntry" style="position:absolute; right:300px; top:375px;">
-		<form action="views/submit.php" style="border:2px solid; border-radius:5px; background-color:#fff; padding:10px">
+		<form action="views/submit.php" method="post" style="border:2px solid; border-radius:5px; background-color:#fff; padding:10px">
 		Student ID: <input type="number" name="StudentID" pattern="^(\d{9})$" title="9-digit ID number">
 		<input type="submit" value="Submit">
 		</form>
 	</div>
 
 <?php include('views/footer/footer.php'); ?>
-

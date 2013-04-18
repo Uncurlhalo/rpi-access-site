@@ -1,1 +1,1 @@
-905698368
+/home/pi/rpi-magcard-swipe/accessList.txt
